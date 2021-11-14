@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bikes</title>
+  </head>
+  <body>
+    <header>
+      <img src="logo.png" alt="Bike Stock" />
+      <h1>Bike Stock</h1>
+      <div class="header-box">
+        <h2>Brands we carry -</h2>
+        <nav><ul></ul></nav>
+      </div>
+    </header>
+
+    <main></main>
+
+    <template>
+      <article class="bike">
+        <img src="{featIMGmedium}" alt="" class="src" />
+        <h3>{cat}</h3>
+        <h2>{name}</h2>
+        <div class="bike-info">
+          <p>Price - <span class="price"></span></p>
+          <div class="flex">
+            <p class="p-colours">Colours - <span>N / A</span></p>
+            <ul class="colours flex"></ul>
+          </div>
+          <p>In stock - <span class="instock"></span></p>
+          <a href="#">Full specs</a>
+        </div>
+      </article>
+    </template>
+
+    <script src="script.js"></script>
+  </body>
+</html>
